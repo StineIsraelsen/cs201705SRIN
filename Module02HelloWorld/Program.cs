@@ -12,7 +12,7 @@ namespace Module02HelloWorld
         {
             Console.WriteLine("Indtast navn");
             string name=Console.ReadLine();
-            Console.WriteLine("Velkommen {0}", name.ToUpper());
+            Console.WriteLine("Velkommen" + name.ToUpper());
             Console.WriteLine("Tryk en tast for at forsætte");
             Console.ReadKey();
         }
