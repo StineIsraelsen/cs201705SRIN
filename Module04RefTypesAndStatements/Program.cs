@@ -61,6 +61,44 @@ namespace Module04RefTypesAndStatements
                 Console.WriteLine(månedsløn[i]);
             }
             Console.WriteLine("Gennemsnit " + gns);
+
+            // Strings
+
+            string navn;
+            navn = null;
+            navn = "Mikkel";
+            navn = navn.ToLower(); // der findes en mange metoder, der kan tilgås for strings, direkte efter referencen
+            string nytNavn = navn.ToUpper();
+            string aa = navn.PadLeft(10, '*');
+
+
+            string fnavn = "Mikkel";
+            string enavn = " Mæøller";
+            string full = fnavn + " " + enavn;
+
+            string full2 = $"{fnavn} {enavn} .... {enavn}";
+
+            //Console.WriteLine("Strart");
+
+            // bool er udfyld
+
+            bool? udfyld = true; // ? er det der gør den nullable
+            if (udfyld.HasValue)
+
+            {
+                Console.WriteLine(udfyld.Value);
+            }
+            else
+            {
+                Console.WriteLine("Ikke udfyldt");
+            }
+
+
+
+
+
+
+
             Console.ReadLine();
 
         }
