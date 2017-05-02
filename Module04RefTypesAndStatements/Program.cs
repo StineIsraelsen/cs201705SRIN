@@ -64,35 +64,51 @@ namespace Module04RefTypesAndStatements
 
             // Strings
 
-            string navn;
-            navn = null;
-            navn = "Mikkel";
-            navn = navn.ToLower(); // der findes en mange metoder, der kan tilgås for strings, direkte efter referencen
-            string nytNavn = navn.ToUpper();
-            string aa = navn.PadLeft(10, '*');
+            //string navn;
+            //navn = null;
+            //navn = "Mikkel";
+            //navn = navn.ToLower(); // der findes en mange metoder, der kan tilgås for strings, direkte efter referencen
+            //string nytNavn = navn.ToUpper();
+            //string aa = navn.PadLeft(10, '*');
 
 
-            string fnavn = "Mikkel";
-            string enavn = " Mæøller";
-            string full = fnavn + " " + enavn;
+            //string fnavn = "Mikkel";
+            //string enavn = " Mæøller";
+            //string full = fnavn + " " + enavn;
 
-            string full2 = $"{fnavn} {enavn} .... {enavn}";
+            //string full2 = $"{fnavn} {enavn} .... {enavn}";
 
-            //Console.WriteLine("Strart");
+            ////Console.WriteLine("Strart");
 
-            // bool er udfyld
+            //// bool er udfyld
 
-            bool? udfyld = true; // ? er det der gør den nullable
-            if (udfyld.HasValue)
+            //bool? udfyld = true; // ? er det der gør den nullable
+            //if (udfyld.HasValue)
 
+            //{
+            //    Console.WriteLine(udfyld.Value);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Ikke udfyldt");
+            //}
+
+
+            // Arbejde med strenge
+
+            string fornavn = "Mikkel";
+            string efternavn = "Cronberg";
+            string samletNavn = fornavn + " " + efternavn;
+            string stortNavn = samletNavn.ToUpper();
+            string lilleNavn = stortNavn.ToLower();
+            string del = samletNavn.Substring(7, 4);
+            string[] navnArray = samletNavn.Split(' ');
+            foreach (string i in navnArray)
             {
-                Console.WriteLine(udfyld.Value);
-            }
-            else
-            {
-                Console.WriteLine("Ikke udfyldt");
+                Console.WriteLine(i);
             }
 
+            // 10 tabel
 
 
 
