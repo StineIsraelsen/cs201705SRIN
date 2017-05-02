@@ -10,11 +10,11 @@ namespace Module02HelloWorld
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("indtast navn");
-            //string name = Console.ReadLine();
-            //Console.WriteLine("velkommen" + name.toupper());
-            //Console.Writeline("tryk en tast for at forsætte");
-            //Console.ReadKey();
+            Console.WriteLine("indtast navn");
+            string name = Console.ReadLine();
+            Console.WriteLine("velkommen" + name.toupper());
+            Console.Writeline("tryk en tast for at forsætte");
+            Console.ReadKey();
         }
     }
 }
