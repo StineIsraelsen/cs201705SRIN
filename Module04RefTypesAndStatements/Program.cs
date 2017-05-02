@@ -110,6 +110,29 @@ namespace Module04RefTypesAndStatements
 
             // 10 tabel
 
+            //int[] tal;
+            //tal = new int[10];
+
+            for (int i = 1; i < 11; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    string tal = (i * (j+1)).ToString();
+                    if ((i*(j+1))>50)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.White;
+                    } 
+                       
+                    Console.Write(tal.PadLeft(4, ' '));
+                }
+                Console.WriteLine();
+            }
+
 
 
 
