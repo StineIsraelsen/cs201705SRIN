@@ -157,11 +157,49 @@ namespace ConsoleApp2
             return m;
         }
 
+        //static void Main(string[] args)
+        //{
+        //    int[] test = { 10, 7, 6, 3, 1, 50, 3 };
+        //    var res = BeregnOgSorterArray(test);
+
+        //}
+
+        // Ny gennemgang på tavlen: rekursion: Metodekald der hele tiden kalder sig selv.
+
+        static void f1() {
+            f2();
+        }
+
+        static void f2()
+        {
+            f3();
+        }
+
+        static void f3()
+        {
+            Console.WriteLine("i f3");
+            f1();
+        }
+
+        static void SkrivFiler(string sti) {
+            string[] filer =System.IO.Directory.GetFiles(sti);
+
+            foreach (var fil in filer)
+            {
+                Console.WriteLine(fil);
+            }
+            string[] mapper = System.IO.Directory.GetDirectories(sti);
+            foreach (var mappe in mapper)
+            {
+                SkrivFiler(mappe);
+            }
+        }
+
+
         static void Main(string[] args)
         {
-            int[] test = { 10, 7, 6, 3, 1, 50, 3 };
-            var res = BeregnOgSorterArray(test);
-
+            SkrivFiler("c:\\temp");
+            Console.ReadLine();
         }
     }
 }
