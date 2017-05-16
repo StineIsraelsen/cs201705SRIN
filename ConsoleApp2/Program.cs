@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace Module05Methods
 {
     class Program
     {
@@ -166,40 +166,108 @@ namespace ConsoleApp2
 
         // Ny gennemgang på tavlen: rekursion: Metodekald der hele tiden kalder sig selv.
 
-        static void f1() {
-            f2();
-        }
+        //static void f1() {
+        //    f2();
+        //}
 
-        static void f2()
-        {
-            f3();
-        }
+        //static void f2()
+        //{
+        //    f3();
+        //}
 
-        static void f3()
-        {
-            Console.WriteLine("i f3");
-            f1();
-        }
+        //static void f3()
+        //{
+        //    Console.WriteLine("i f3");
+        //    f1();
+        //}
 
-        static void SkrivFiler(string sti) {
-            string[] filer =System.IO.Directory.GetFiles(sti);
+        //static void SkrivFiler(string sti) {
+        //    string[] filer =System.IO.Directory.GetFiles(sti);
 
-            foreach (var fil in filer)
-            {
-                Console.WriteLine(fil);
-            }
-            string[] mapper = System.IO.Directory.GetDirectories(sti);
-            foreach (var mappe in mapper)
-            {
-                SkrivFiler(mappe);
-            }
-        }
+        //    foreach (var fil in filer)
+        //    {
+        //        Console.WriteLine(fil);
+        //    }
+        //    string[] mapper = System.IO.Directory.GetDirectories(sti);
+        //    foreach (var mappe in mapper)
+        //    {
+        //        SkrivFiler(mappe);
+        //    }
+        //}
 
 
+        //static void Main(string[] args)
+        //{
+        //    SkrivFiler("c:\\temp");
+        //    Console.ReadLine();
+        //}
+
+
+
+        // Ny gennemgang på tavlen: rekursion: Metodekald der hele tiden kalder sig selv.
+
+        //static void f1()
+        //{
+        //    f2();
+        //}
+
+        //static void f2()
+        //{
+        //    f3();
+        //}
+
+        //static void f3()
+        //{
+        //    Console.WriteLine("i f3");
+        //    f1();
+        //}
+
+        //static void SkrivFiler(string sti)
+        //{
+        //    string[] filer = System.IO.Directory.GetFiles(sti);
+
+        //    foreach (var fil in filer)
+        //    {
+        //        Console.WriteLine(fil);
+        //    }
+        //    string[] mapper = System.IO.Directory.GetDirectories(sti);
+        //    foreach (var mappe in mapper)
+        //    {
+        //        SkrivFiler(mappe);
+        //    }
+        //}
+
+
+        //static void Main(string[] args)
+        //{
+        //    SkrivFiler("c:\\temp");
+        //    Console.ReadLine();
+        //}
+        // rekursion
         static void Main(string[] args)
         {
-            SkrivFiler("c:\\temp");
+
+            LøkkeSomMetode(1, 10);
             Console.ReadLine();
         }
+
+        static void LøkkeSomMetode(int start, int stop)
+        {
+            Console.WriteLine(start);
+
+            if (start == stop)
+                return;
+
+            start++;
+
+            LøkkeSomMetode(start, stop);
+
+
+
+
+
+        }
+
+        
     }
 }

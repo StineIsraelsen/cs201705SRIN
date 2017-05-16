@@ -9,22 +9,45 @@ namespace Module06OOP
     class Terning
     {
 
-        private static System.Random rnd = new Random(); // sørger for at de tilfældige tal er tilfældie.
+        //private static System.Random rnd = new Random(); // sørger for at de tilfældige tal er tilfældie.
 
-        
-        //data/variabler
-        public int værdi; // kan kun læses inden for klassen
 
-        public int værdi2;  // kan læses uden for klassen
+        public int Værdi;
+        private bool snyd;
 
-        public void Ryst() {
-            this.værdi = rnd.Next(1, 7);
-        }
 
-        public void Test()
+        private static Random rnd = new Random();
+
+        // default constructor
+        public Terning()
         {
-            this.værdi = 1;
+            this.Værdi = 1;
+            this.snyd = false;
 
         }
+
+
+        //custom constructor
+        public Terning(bool snyd)
+        {
+            this.Værdi = 1;
+            this.snyd = snyd;
+
+        }
+
+        public void Skriv()
+        {
+            Console.WriteLine(this.Værdi);
+        }
+
+
+        public void Ryst()
+        {
+            if (snyd)
+                this.Værdi = 6;
+            else
+                this.Værdi = rnd.Next(1, 7);
+        }
+
     }
 }
