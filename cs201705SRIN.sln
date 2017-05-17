@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module08Inheritance", "Modu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module08Terning", "Module08Terning\Module08Terning.csproj", "{13A4CEA6-3FF2-498F-97B9-38D386C8E6E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module08Polymorphism", "Module08Polymorphism\Module08Polymorphism.csproj", "{E0DABF57-F016-493B-A993-47D16805D943}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{13A4CEA6-3FF2-498F-97B9-38D386C8E6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13A4CEA6-3FF2-498F-97B9-38D386C8E6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13A4CEA6-3FF2-498F-97B9-38D386C8E6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DABF57-F016-493B-A993-47D16805D943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DABF57-F016-493B-A993-47D16805D943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DABF57-F016-493B-A993-47D16805D943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DABF57-F016-493B-A993-47D16805D943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
