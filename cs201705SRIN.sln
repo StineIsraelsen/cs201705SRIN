@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module07Trekant", "Module07
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module08Inheritance", "Module08Inheritance\Module08Inheritance.csproj", "{944B8047-A39C-4F42-8D88-E31376082035}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module08Terning", "Module08Terning\Module08Terning.csproj", "{13A4CEA6-3FF2-498F-97B9-38D386C8E6E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{944B8047-A39C-4F42-8D88-E31376082035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{944B8047-A39C-4F42-8D88-E31376082035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{944B8047-A39C-4F42-8D88-E31376082035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A4CEA6-3FF2-498F-97B9-38D386C8E6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A4CEA6-3FF2-498F-97B9-38D386C8E6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A4CEA6-3FF2-498F-97B9-38D386C8E6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A4CEA6-3FF2-498F-97B9-38D386C8E6E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
