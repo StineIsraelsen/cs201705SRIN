@@ -26,7 +26,20 @@ namespace TestApplication
 
         public Car()
         {
-            petname="Chuck"
+            petname = "Chuck";
+            currentSpeed = 10;
+        }
+
+        //Custom constructor: Can create more than one. One can also link them to minimize the code to be written.
+        public Car(string pt)
+        {
+            petname = pt;
+        }
+
+        public Car(string pn, int cs)
+        {
+            petname = pn;
+            currentSpeed = cs;
         }
     }
 }

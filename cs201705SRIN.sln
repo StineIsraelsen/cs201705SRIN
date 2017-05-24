@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module08Polymorphism", "Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{3939A84F-978D-4637-80B1-704C7059EBB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module08Yatzy", "Module08Yatzy\Module08Yatzy.csproj", "{505294E3-89F3-4FF6-989E-D9A693BBA41D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{3939A84F-978D-4637-80B1-704C7059EBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3939A84F-978D-4637-80B1-704C7059EBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3939A84F-978D-4637-80B1-704C7059EBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505294E3-89F3-4FF6-989E-D9A693BBA41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505294E3-89F3-4FF6-989E-D9A693BBA41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505294E3-89F3-4FF6-989E-D9A693BBA41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505294E3-89F3-4FF6-989E-D9A693BBA41D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
