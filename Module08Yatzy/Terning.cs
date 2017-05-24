@@ -22,13 +22,23 @@ namespace Module08Yatzy
                 værdi = value; }
         }
 
+        static Terning()
+        {
+            rnd = new Random();
+        }
+
+        public Terning()
+        {
+            this.Ryst();
+        }
+
         public void Ryst() {
             this.værdi = rnd.Next(1,7);
         }
 
         public void Skriv()
         {
-            Console.WriteLine('[' + Værdi + ']');
+            Console.Write("[" + Værdi + "]");
         }
     }
 

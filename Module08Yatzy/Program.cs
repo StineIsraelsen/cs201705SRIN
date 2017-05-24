@@ -10,6 +10,15 @@ namespace Module08Yatzy
     {
         static void Main(string[] args)
         {
+             YatzyBæger b = new YatzyBæger();
+
+            //Terning b = new Terning();
+
+            b.Skriv();
+            b.Ryst();
+            b.Skriv();
+
+            Console.ReadLine();
         }
     }
 }
