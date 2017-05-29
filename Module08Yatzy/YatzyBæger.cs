@@ -84,7 +84,33 @@ namespace Module08Yatzy
                 }
             }
 
+         
+
             return treens;
+        }
+
+        public bool FireEns()
+        {
+            bool fireens = false;
+
+            Terning n = new Terning();
+            n = terninger[1];
+            for (int i = 0; i < terninger.Length; i++)
+            {
+                int count = 0;
+                for (int j = 0; j < terninger.Length; j++)
+                {
+                    if (terninger[].Terning == i)
+                        count++;
+                    if (count > 4)
+                    {
+                        fireens = true;
+                    }
+
+                }
+            }
+
+            return fireens;
         }
     }
 }
