@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module02HelloWorld", "Module02HelloWorld\Module02HelloWorld.csproj", "{8BB39E4E-25FA-4DBC-81BE-E594D228913E}"
 EndProject
@@ -30,6 +30,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{3939A84F-978D-4637-80B1-704C7059EBB1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module08Yatzy", "Module08Yatzy\Module08Yatzy.csproj", "{505294E3-89F3-4FF6-989E-D9A693BBA41D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module09ExceptionHandling", "Module09ExceptionHandling\Module09ExceptionHandling.csproj", "{06D2E5ED-90DF-4A33-BC37-F034E96156AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module09Log", "Module09Log\Module09Log.csproj", "{39B6E513-0D4C-4DFE-9F6D-422CF34DEA93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module10Interface", "Module10Interface\Module10Interface.csproj", "{01BE496E-0317-4226-BEDB-79D60BF9E724}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +99,18 @@ Global
 		{505294E3-89F3-4FF6-989E-D9A693BBA41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{505294E3-89F3-4FF6-989E-D9A693BBA41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{505294E3-89F3-4FF6-989E-D9A693BBA41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D2E5ED-90DF-4A33-BC37-F034E96156AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D2E5ED-90DF-4A33-BC37-F034E96156AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D2E5ED-90DF-4A33-BC37-F034E96156AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D2E5ED-90DF-4A33-BC37-F034E96156AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B6E513-0D4C-4DFE-9F6D-422CF34DEA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B6E513-0D4C-4DFE-9F6D-422CF34DEA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B6E513-0D4C-4DFE-9F6D-422CF34DEA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B6E513-0D4C-4DFE-9F6D-422CF34DEA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BE496E-0317-4226-BEDB-79D60BF9E724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BE496E-0317-4226-BEDB-79D60BF9E724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BE496E-0317-4226-BEDB-79D60BF9E724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BE496E-0317-4226-BEDB-79D60BF9E724}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
